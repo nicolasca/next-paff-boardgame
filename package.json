@@ -2,9 +2,9 @@
   "name": "with-typescript",
   "version": "1.0.0",
   "scripts": {
-    "dev": "ts-node server.ts",
+    "dev": "node server.ts",
     "build": "next build",
-    "start": "next start",
+    "start": "NODE_ENV=production node server.ts"
     "type-check": "tsc"
   },
   "dependencies": {
